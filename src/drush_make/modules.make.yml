@@ -1,0 +1,133 @@
+api: 2
+
+core: "8.x"
+
+defaults:
+  projects:
+    overwrite: TRUE
+
+projects:
+  admin_toolbar:
+    type: "module"
+    version: "1.18"
+
+  advagg:
+    type: "module"
+    version: "2.3"
+
+  bootstrap_layouts:
+    type: "module"
+    version: "4.1"
+
+  colorbutton:
+    type: "module"
+    version: "1.0"
+
+  components:
+    type: "module"
+    version: "1.0"
+
+  config_update:
+    type: "module"
+    version: "1.3"
+
+  contact_block:
+    type: "module"
+    version: "1.3"
+
+  ctools:
+    type: "module"
+    version: "3.0-alpha27"
+    patch:
+      - "https://www.drupal.org/files/issues/2475595-ctools-autocomplete-fix-24.patch"
+      - "https://www.drupal.org/files/issues/ctools-unserialize-plugin-collection-2831521-1.patch"
+
+  default_content:
+    type: "module"
+    version: "1.0-alpha4"
+
+  devel:
+    type: "module"
+    version: "1.0-rc1"
+
+  ds:
+    type: "module"
+    version: "2.6"
+
+  entity_reference_revisions:
+    type: "module"
+    version: "1.2"
+
+  fb_likebox:
+    type: "module"
+    version: "2.0"
+
+  field_group:
+    type: "module"
+    version: "1.0-rc6"
+
+  file_entity:
+    type: "module"
+    version: "2.0-beta3"
+
+  layout_plugin:
+    type: "module"
+    version: "1.0-alpha23"
+
+  link_attributes:
+    type: "module"
+    version: "1.0"
+
+  page_manager:
+    type: "module"
+    version: "1.0-alpha24"
+
+  panelbutton:
+    type: "module"
+    version: "1.0"
+
+  panels:
+    type: "module"
+    version: "3.0-beta6"
+
+  paragraphs:
+    type: "module"
+    version: "1.1"
+    patch:
+      - "https://www.drupal.org/files/issues/add_form_required_to-2820502-19.patch"
+
+  pathauto:
+    type: "module"
+    version: "1.0-rc1"
+
+  redirect:
+    type: "module"
+    version: "1.0-alpha4"
+
+  styleguide:
+    type: "module"
+    version: "1.0-alpha2"
+
+  taxonomy_machine_name:
+    type: "module"
+    version: "1.0-alpha2"
+
+  token:
+    type: "module"
+    version: "1.0-rc1"
+
+  twitter_block:
+    type: "module"
+    version: "3.0-alpha0"
+
+  views_field_view:
+    type: "module"
+    version: "1.0-beta2"
+
+  views_infinite_scroll:
+    type: "module"
+    version: "1.3"
+
+  youtube:
+    type: "module"
+    version: "1.0-beta3"

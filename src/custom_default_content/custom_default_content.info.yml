@@ -1,0 +1,11 @@
+name: Custom Default Content
+# core: 8.x
+description: Custom Default content.
+package: custom
+type: module
+dependencies:
+  - default_content
+  - better_normalizers
+  - block_content
+
+core: '8.x'

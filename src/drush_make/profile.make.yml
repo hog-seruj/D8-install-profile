@@ -1,0 +1,22 @@
+api: 2
+
+core: "8.x"
+
+defaults:
+  projects:
+    overwrite: TRUE
+
+includes:
+  - "core.make.yml"
+  - "modules.make.yml"
+
+projects:
+  bootstrap:
+    type: theme
+    version: "3.3"
+  components:
+    type: module
+    version: "1.0"
+  config_installer:
+    type": "profile"
+    version: "1.4"
