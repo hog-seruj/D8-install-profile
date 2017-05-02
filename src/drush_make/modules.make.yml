@@ -131,3 +131,11 @@ projects:
   youtube:
     type: "module"
     version: "1.0-beta3"
+
+  webform:
+    type: "module"
+    download:
+      type: git
+      branch: "8.x-5.x"
+      url: "https://git.drupal.org/project/webform.git"
+      revision: 57c3d107f3aee7d645fcba5f8f236a48d48d2de0

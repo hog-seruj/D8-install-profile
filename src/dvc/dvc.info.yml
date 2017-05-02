@@ -75,10 +75,42 @@ dependencies:
   - views
   - views_ui #comment in prod
 # Contrib modules
-  - admin_toolbar
-  - components
+  #- admin_toolbar
+  #- advagg
+  #- bootstrap_layouts
+  #- colorbutton
+  #- components
+  #- config_update
+  #- config_update_ui
+  #- contact_block
+  #- ctools
+  #- default_content
+  #- ds
+  #- ds_extras
+  #- entity_reference_revisions
+  #- fb_likebox
+  #- field_group
+  #- file_entity
+  #- layout_plugin
+  #- link_attributes
+  #- page_manager
+  # panelbutton
+  #- panels
+  #- paragraphs
+  # pathauto
+  # redirect
+  # - styleguide
+  #- taxonomy_machine_name
+  #- token
+  #- twitter_block
+  #- views_field_view
+  #- views_infinite_scroll
+  #- youtube
+  #- webform
+  #- webform_templates
+  # webform_ui
 # Custom modules
-#  - sdd_default_content
+#  - custom_default_content
 
 themes:
   - bootstrap
